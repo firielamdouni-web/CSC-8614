@@ -1,6 +1,7 @@
 # TP2 - Fine-tuning GPT-2 for Spam Classification
 
 **Name:** AMDOUNI Firiel
+
 **Date:** January 9, 2026
 
 ## Configuration
