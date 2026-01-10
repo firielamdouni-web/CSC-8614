@@ -1,48 +1,17 @@
-# Environnements virtuels Python
-venv/
-env/
-ENV/
-.venv
-
-# Fichiers Python
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
+*.pyc
+*.pyo
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb_checkpoints/
+# Jupyter
+.ipynb_checkpoints/
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
-
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Modèles et caches HuggingFace
-.cache/
-models/
-*.bin
-*.safetensors
-
-# OS
-.DS_Store
-Thumbs.db
+# Data files (too large)
+*.csv
+gpt2_weights/
+sms_spam_collection/
+*.zip
 
 # Logs
 *.log
-
-# Données volumineuses (à adapter)
-data/
-*.csv
-*.json
-*.txt
-!requirements.txt
+jupyter.log
