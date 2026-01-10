@@ -9,8 +9,6 @@ __pycache__/
 # Data files (too large)
 *.csv
 gpt2_weights/
-sms_spam_collection/
-*.zip
 
 # Logs
 *.log
