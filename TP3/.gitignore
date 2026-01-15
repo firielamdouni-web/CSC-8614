@@ -9,3 +9,7 @@ gpt2_weights/
 TP3/session_03/gpt2_weights/
 
 
+session_03/gpt2_weights/
+*.ckpt
+*.h5
+*.pth
