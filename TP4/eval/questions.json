@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q1",
+    "question": "Comment valider une UE ?",
+    "expected_doc_type": "admin_pdf"
+  },
+  {
+    "id": "q2",
+    "question": "Quelle est la note minimale pour valider une UE ?",
+    "expected_doc_type": "admin_pdf"
+  },
+  {
+    "id": "q3",
+    "question": "Quels sont les sujets de PFE supplémentaires proposés par Luca Benedetto ?",
+    "expected_doc_type": "email"
+  },
+  {
+    "id": "q4",
+    "question": "Quelles sont les conditions d'admission en FISA ?",
+    "expected_doc_type": "admin_pdf"
+  },
+  {
+    "id": "q5",
+    "question": "Comment s'inscrire au TOEIC ?",
+    "expected_doc_type": "email"
+  },
+  {
+    "id": "q6",
+    "question": "Quels sont les règlements de scolarité pour les apprentis-ingénieurs ?",
+    "expected_doc_type": "admin_pdf"
+  },
+  {
+    "id": "q7",
+    "question": "Quelle est la date limite pour le projet RSE TSP ?",
+    "expected_doc_type": "email"
+  },
+  {
+    "id": "q8",
+    "question": "Comment valider l'examen externe de langue anglaise ?",
+    "expected_doc_type": "admin_pdf"
+  },
+  {
+    "id": "q9",
+    "question": "Quels cours sont proposés en distanciel en janvier 2026 ?",
+    "expected_doc_type": "email"
+  },
+  {
+    "id": "q10",
+    "question": "Quel est le règlement intérieur de Télécom SudParis ?",
+    "expected_doc_type": "admin_pdf"
+  },
+  {
+    "id": "q11",
+    "question": "Comment obtenir le titre de séjour ou récépissé valide ?",
+    "expected_doc_type": "email"
+  },
+  {
+    "id": "q12",
+    "question": "Quelles sont les modalités de validation par équivalence ?",
+    "expected_doc_type": "admin_pdf"
+  }
+]
