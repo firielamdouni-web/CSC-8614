@@ -1,0 +1,7 @@
+{"run_id": "bed6150b-8eac-4543-9e71-84216f672c73", "ts": "2026-01-24T17:10:23.608544Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E01"}}
+{"run_id": "bed6150b-8eac-4543-9e71-84216f672c73", "ts": "2026-01-24T17:10:28.363675Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 3, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "validation UE règlement", "rationale": "Question administrative nécessitant recherche dans règlements."}}}
+{"run_id": "bed6150b-8eac-4543-9e71-84216f672c73", "ts": "2026-01-24T17:10:28.367427Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "bed6150b-8eac-4543-9e71-84216f672c73", "ts": "2026-01-24T17:10:30.358688Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "e3724e51e0be", "latency_ms": 1964, "status": "ok", "k": 5, "n_docs": 5}}
+{"run_id": "bed6150b-8eac-4543-9e71-84216f672c73", "ts": "2026-01-24T17:10:30.362823Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 5}}
+{"run_id": "bed6150b-8eac-4543-9e71-84216f672c73", "ts": "2026-01-24T17:10:30.394755Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "bed6150b-8eac-4543-9e71-84216f672c73", "ts": "2026-01-24T17:10:48.980485Z", "event": "node_end", "data": {"node": "draft_reply", "status": "ok", "n_citations": 1}}

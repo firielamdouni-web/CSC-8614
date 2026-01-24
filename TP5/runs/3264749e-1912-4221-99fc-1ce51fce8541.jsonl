@@ -1,0 +1,6 @@
+{"run_id": "3264749e-1912-4221-99fc-1ce51fce8541", "ts": "2026-01-24T19:05:08.105708Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E13"}}
+{"run_id": "3264749e-1912-4221-99fc-1ce51fce8541", "ts": "2026-01-24T19:05:08.186006Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "escalate", "category": "other", "priority": 1, "risk_level": "high", "needs_retrieval": false, "retrieval_query": "", "rationale": "Suspicion de prompt injection."}, "note": "injection_heuristic_triggered"}}
+{"run_id": "3264749e-1912-4221-99fc-1ce51fce8541", "ts": "2026-01-24T19:05:08.254021Z", "event": "node_start", "data": {"node": "stub_escalate"}}
+{"run_id": "3264749e-1912-4221-99fc-1ce51fce8541", "ts": "2026-01-24T19:05:08.427656Z", "event": "node_end", "data": {"node": "stub_escalate", "status": "ok"}}
+{"run_id": "3264749e-1912-4221-99fc-1ce51fce8541", "ts": "2026-01-24T19:05:08.562076Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "3264749e-1912-4221-99fc-1ce51fce8541", "ts": "2026-01-24T19:05:08.643067Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "handoff"}}

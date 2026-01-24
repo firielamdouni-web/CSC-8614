@@ -1,0 +1,11 @@
+{"run_id": "d8394700-5663-4387-8a9d-8d8281d30450", "ts": "2026-01-24T19:04:16.334107Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E07"}}
+{"run_id": "d8394700-5663-4387-8a9d-8d8281d30450", "ts": "2026-01-24T19:04:19.590501Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 3, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "Cours en distanciel janvier 2026 règlements", "rationale": "Question administrative concernant les cours en distanciel pour le mois de janvier 2026."}}}
+{"run_id": "d8394700-5663-4387-8a9d-8d8281d30450", "ts": "2026-01-24T19:04:19.598994Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "d8394700-5663-4387-8a9d-8d8281d30450", "ts": "2026-01-24T19:04:20.239479Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "dcab785b024a", "latency_ms": 599, "status": "ok", "k": 5, "n_docs": 5}}
+{"run_id": "d8394700-5663-4387-8a9d-8d8281d30450", "ts": "2026-01-24T19:04:20.242584Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 5}}
+{"run_id": "d8394700-5663-4387-8a9d-8d8281d30450", "ts": "2026-01-24T19:04:20.261748Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "d8394700-5663-4387-8a9d-8d8281d30450", "ts": "2026-01-24T19:04:24.619818Z", "event": "node_end", "data": {"node": "draft_reply", "status": "ok", "n_citations": 1}}
+{"run_id": "d8394700-5663-4387-8a9d-8d8281d30450", "ts": "2026-01-24T19:04:24.622402Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "d8394700-5663-4387-8a9d-8d8281d30450", "ts": "2026-01-24T19:04:24.643506Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": true, "last_draft_had_valid_citations": true, "retrieval_attempts": 1}}
+{"run_id": "d8394700-5663-4387-8a9d-8d8281d30450", "ts": "2026-01-24T19:04:24.661507Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "d8394700-5663-4387-8a9d-8d8281d30450", "ts": "2026-01-24T19:04:24.677401Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "reply"}}

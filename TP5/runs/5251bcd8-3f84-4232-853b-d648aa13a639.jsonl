@@ -1,0 +1,6 @@
+{"run_id": "5251bcd8-3f84-4232-853b-d648aa13a639", "ts": "2026-01-24T18:37:58.393399Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E01"}}
+{"run_id": "5251bcd8-3f84-4232-853b-d648aa13a639", "ts": "2026-01-24T18:38:01.341447Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 3, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "validation UE règlement", "rationale": "Question sur la validation des UE nécessitant recherche dans les règles."}}}
+{"run_id": "5251bcd8-3f84-4232-853b-d648aa13a639", "ts": "2026-01-24T18:38:01.344986Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "5251bcd8-3f84-4232-853b-d648aa13a639", "ts": "2026-01-24T18:38:02.265494Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "e3724e51e0be", "latency_ms": 891, "status": "ok", "k": 5, "n_docs": 5}}
+{"run_id": "5251bcd8-3f84-4232-853b-d648aa13a639", "ts": "2026-01-24T18:38:02.268859Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 5}}
+{"run_id": "5251bcd8-3f84-4232-853b-d648aa13a639", "ts": "2026-01-24T18:38:02.295987Z", "event": "node_start", "data": {"node": "draft_reply"}}

@@ -1,0 +1,4 @@
+{"run_id": "72e59809-1b3d-4b04-8804-e63e71151d28", "ts": "2026-01-24T13:00:34.300261Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E01"}}
+{"run_id": "72e59809-1b3d-4b04-8804-e63e71151d28", "ts": "2026-01-24T13:00:39.120880Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 3, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "validation UE règlement", "rationale": "Question administrative concernant la validation des UE."}}}
+{"run_id": "72e59809-1b3d-4b04-8804-e63e71151d28", "ts": "2026-01-24T13:00:39.124835Z", "event": "node_start", "data": {"node": "stub_reply"}}
+{"run_id": "72e59809-1b3d-4b04-8804-e63e71151d28", "ts": "2026-01-24T13:00:39.187619Z", "event": "node_end", "data": {"node": "stub_reply", "status": "ok"}}

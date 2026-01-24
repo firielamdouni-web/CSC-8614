@@ -1,0 +1,11 @@
+{"run_id": "ec54f4cf-dcb0-4008-b0b2-75bac923c4ca", "ts": "2026-01-24T19:03:53.063750Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E04"}}
+{"run_id": "ec54f4cf-dcb0-4008-b0b2-75bac923c4ca", "ts": "2026-01-24T19:03:55.961825Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 3, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "Luca Benedetto PFE machine learning supplementary subjects", "rationale": "Question regarding additional PFE subjects in machine learning."}}}
+{"run_id": "ec54f4cf-dcb0-4008-b0b2-75bac923c4ca", "ts": "2026-01-24T19:03:55.964741Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "ec54f4cf-dcb0-4008-b0b2-75bac923c4ca", "ts": "2026-01-24T19:03:56.543614Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "1bb90075d115", "latency_ms": 559, "status": "ok", "k": 5, "n_docs": 5}}
+{"run_id": "ec54f4cf-dcb0-4008-b0b2-75bac923c4ca", "ts": "2026-01-24T19:03:56.546758Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 5}}
+{"run_id": "ec54f4cf-dcb0-4008-b0b2-75bac923c4ca", "ts": "2026-01-24T19:03:56.568150Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "ec54f4cf-dcb0-4008-b0b2-75bac923c4ca", "ts": "2026-01-24T19:04:04.060640Z", "event": "node_end", "data": {"node": "draft_reply", "status": "ok", "n_citations": 1}}
+{"run_id": "ec54f4cf-dcb0-4008-b0b2-75bac923c4ca", "ts": "2026-01-24T19:04:04.063117Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "ec54f4cf-dcb0-4008-b0b2-75bac923c4ca", "ts": "2026-01-24T19:04:04.084245Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": true, "last_draft_had_valid_citations": true, "retrieval_attempts": 1}}
+{"run_id": "ec54f4cf-dcb0-4008-b0b2-75bac923c4ca", "ts": "2026-01-24T19:04:04.103593Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "ec54f4cf-dcb0-4008-b0b2-75bac923c4ca", "ts": "2026-01-24T19:04:04.119635Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "reply"}}

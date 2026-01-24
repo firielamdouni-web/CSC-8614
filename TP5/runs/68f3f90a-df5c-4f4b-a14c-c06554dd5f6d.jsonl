@@ -1,0 +1,6 @@
+{"run_id": "68f3f90a-df5c-4f4b-a14c-c06554dd5f6d", "ts": "2026-01-24T19:04:13.289930Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E06"}}
+{"run_id": "68f3f90a-df5c-4f4b-a14c-c06554dd5f6d", "ts": "2026-01-24T19:04:16.239979Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "escalate", "category": "admin", "priority": 5, "risk_level": "high", "needs_retrieval": true, "retrieval_query": "policy regarding phishing emails", "rationale": "Suspicious email asking for password and linking to a potential phishing site."}}}
+{"run_id": "68f3f90a-df5c-4f4b-a14c-c06554dd5f6d", "ts": "2026-01-24T19:04:16.243444Z", "event": "node_start", "data": {"node": "stub_escalate"}}
+{"run_id": "68f3f90a-df5c-4f4b-a14c-c06554dd5f6d", "ts": "2026-01-24T19:04:16.264960Z", "event": "node_end", "data": {"node": "stub_escalate", "status": "ok"}}
+{"run_id": "68f3f90a-df5c-4f4b-a14c-c06554dd5f6d", "ts": "2026-01-24T19:04:16.283367Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "68f3f90a-df5c-4f4b-a14c-c06554dd5f6d", "ts": "2026-01-24T19:04:16.315407Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "handoff"}}

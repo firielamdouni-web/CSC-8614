@@ -1,0 +1,11 @@
+{"run_id": "9bf6e7dd-1340-4e6a-91c2-1ca99e12bcb1", "ts": "2026-01-24T19:04:40.496448Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E10"}}
+{"run_id": "9bf6e7dd-1340-4e6a-91c2-1ca99e12bcb1", "ts": "2026-01-24T19:04:44.087400Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 3, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "validation UE règlement intérieur - Absences justifiées", "rationale": "La question de Julie Moreau concerne le règlement intérieur et nécessite une recherche dans les documents officiels relatifs aux absences justifiées."}}}
+{"run_id": "9bf6e7dd-1340-4e6a-91c2-1ca99e12bcb1", "ts": "2026-01-24T19:04:44.092939Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "9bf6e7dd-1340-4e6a-91c2-1ca99e12bcb1", "ts": "2026-01-24T19:04:44.505720Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "198f30902a43", "latency_ms": 348, "status": "ok", "k": 5, "n_docs": 5}}
+{"run_id": "9bf6e7dd-1340-4e6a-91c2-1ca99e12bcb1", "ts": "2026-01-24T19:04:44.508823Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 5}}
+{"run_id": "9bf6e7dd-1340-4e6a-91c2-1ca99e12bcb1", "ts": "2026-01-24T19:04:44.533532Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "9bf6e7dd-1340-4e6a-91c2-1ca99e12bcb1", "ts": "2026-01-24T19:04:47.777703Z", "event": "node_end", "data": {"node": "draft_reply", "status": "ok", "n_citations": 1}}
+{"run_id": "9bf6e7dd-1340-4e6a-91c2-1ca99e12bcb1", "ts": "2026-01-24T19:04:47.810544Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "9bf6e7dd-1340-4e6a-91c2-1ca99e12bcb1", "ts": "2026-01-24T19:04:47.817915Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": true, "last_draft_had_valid_citations": true, "retrieval_attempts": 1}}
+{"run_id": "9bf6e7dd-1340-4e6a-91c2-1ca99e12bcb1", "ts": "2026-01-24T19:04:47.839967Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "9bf6e7dd-1340-4e6a-91c2-1ca99e12bcb1", "ts": "2026-01-24T19:04:47.906223Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "reply"}}

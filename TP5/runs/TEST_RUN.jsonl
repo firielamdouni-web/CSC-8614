@@ -1,0 +1,8 @@
+{"run_id": "TEST_RUN", "ts": "2026-01-22T09:39:01.229100Z", "event": "node_start", "data": {"node": "classify_email"}}
+{"run_id": "TEST_RUN", "ts": "2026-01-22T09:39:01.291602Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok"}}
+{"run_id": "TEST_RUN", "ts": "2026-01-22T09:39:17.001607Z", "event": "node_start", "data": {"node": "classify_email"}}
+{"run_id": "TEST_RUN", "ts": "2026-01-22T09:39:17.003478Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok"}}
+{"run_id": "TEST_RUN", "ts": "2026-01-22T09:41:12.241997Z", "event": "node_start", "data": {"node": "classify_email"}}
+{"run_id": "TEST_RUN", "ts": "2026-01-22T09:41:12.260045Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok"}}
+{"run_id": "TEST_RUN", "ts": "2026-01-22T09:41:14.176595Z", "event": "node_start", "data": {"node": "classify_email"}}
+{"run_id": "TEST_RUN", "ts": "2026-01-22T09:41:14.178701Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok"}}

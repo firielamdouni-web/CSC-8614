@@ -1,0 +1,6 @@
+{"run_id": "df9dcf4c-0fba-40b0-b202-3910dc6c7f0c", "ts": "2026-01-24T18:34:09.079472Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E01"}}
+{"run_id": "df9dcf4c-0fba-40b0-b202-3910dc6c7f0c", "ts": "2026-01-24T18:34:11.542547Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 3, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "validation UE compensation règlement", "rationale": "Question concernant la validation de l'UE avec compensation."}}}
+{"run_id": "df9dcf4c-0fba-40b0-b202-3910dc6c7f0c", "ts": "2026-01-24T18:34:11.550400Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "df9dcf4c-0fba-40b0-b202-3910dc6c7f0c", "ts": "2026-01-24T18:34:12.398088Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "7327ec3de61d", "latency_ms": 815, "status": "ok", "k": 5, "n_docs": 5}}
+{"run_id": "df9dcf4c-0fba-40b0-b202-3910dc6c7f0c", "ts": "2026-01-24T18:34:12.401921Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 5}}
+{"run_id": "df9dcf4c-0fba-40b0-b202-3910dc6c7f0c", "ts": "2026-01-24T18:34:12.422099Z", "event": "node_start", "data": {"node": "draft_reply"}}

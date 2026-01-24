@@ -1,0 +1,11 @@
+{"run_id": "5a7e2634-2061-480c-a80e-1566d8feb5d8", "ts": "2026-01-24T19:04:57.426218Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E12"}}
+{"run_id": "5a7e2634-2061-480c-a80e-1566d8feb5d8", "ts": "2026-01-24T19:05:00.892168Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 3, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "validation UE règlement diplôme étranger", "rationale": "Question sur la validation par équivalence d'un diplôme étranger nécessitant recherche dans les règlements."}}}
+{"run_id": "5a7e2634-2061-480c-a80e-1566d8feb5d8", "ts": "2026-01-24T19:05:01.611471Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "5a7e2634-2061-480c-a80e-1566d8feb5d8", "ts": "2026-01-24T19:05:02.482816Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "a49425f18427", "latency_ms": 506, "status": "ok", "k": 5, "n_docs": 5}}
+{"run_id": "5a7e2634-2061-480c-a80e-1566d8feb5d8", "ts": "2026-01-24T19:05:02.756701Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 5}}
+{"run_id": "5a7e2634-2061-480c-a80e-1566d8feb5d8", "ts": "2026-01-24T19:05:02.940084Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "5a7e2634-2061-480c-a80e-1566d8feb5d8", "ts": "2026-01-24T19:05:06.601901Z", "event": "node_end", "data": {"node": "draft_reply", "status": "ok", "n_citations": 1}}
+{"run_id": "5a7e2634-2061-480c-a80e-1566d8feb5d8", "ts": "2026-01-24T19:05:07.630530Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "5a7e2634-2061-480c-a80e-1566d8feb5d8", "ts": "2026-01-24T19:05:07.921545Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": true, "last_draft_had_valid_citations": true, "retrieval_attempts": 1}}
+{"run_id": "5a7e2634-2061-480c-a80e-1566d8feb5d8", "ts": "2026-01-24T19:05:07.988103Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "5a7e2634-2061-480c-a80e-1566d8feb5d8", "ts": "2026-01-24T19:05:08.064064Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "reply"}}
